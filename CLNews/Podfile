@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CLNews' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CLNews
+  
+  pod 'Masonry', '1.1.0'     #自动布局框架
+  pod 'MJRefresh', '3.1.15.7'  #上拉刷新下拉加载更多框架
+  pod 'YTKNetwork', '2.0.4'   #网络框架
+  pod 'AxcAE_TabBar', '1.0.5' #底部导航标签
+  pod 'MBProgressHUD', '1.1.0' #MBProgressHUD指示器
+  pod 'FMDB', '2.7.5'   #数据库
+
+  target 'CLNewsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CLNewsUITests' do
+    # Pods for testing
+  end
+
+end

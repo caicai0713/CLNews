@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		76414F61243E0DEB0015AEA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76414F60243E0DEB0015AEA9 /* main.m */; };
 		76414F6B243E0DEB0015AEA9 /* CLNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76414F6A243E0DEB0015AEA9 /* CLNewsTests.m */; };
 		76414F76243E0DEB0015AEA9 /* CLNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76414F75243E0DEB0015AEA9 /* CLNewsUITests.m */; };
+		8AA587C0F93FCACB405872E8 /* Pods_CLNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1CDDCC92B4783BCB57DDE2 /* Pods_CLNews.framework */; };
+		CB5A21CE346FEB577F11C45F /* Pods_CLNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89286297CB11D794AF704265 /* Pods_CLNewsTests.framework */; };
+		F59AF6FEED91F6B879B0A69E /* Pods_CLNews_CLNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE64FE84934542A5FE11D6A /* Pods_CLNews_CLNewsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16AC564F3665A9C2AA4A44F5 /* Pods-CLNews-CLNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLNews-CLNewsUITests.release.xcconfig"; path = "Target Support Files/Pods-CLNews-CLNewsUITests/Pods-CLNews-CLNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3ACDB53F30D641CD9E9046F8 /* Pods-CLNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLNewsTests.debug.xcconfig"; path = "Target Support Files/Pods-CLNewsTests/Pods-CLNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		408BFB72D0788674A7FB863D /* Pods-CLNews-CLNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLNews-CLNewsUITests.debug.xcconfig"; path = "Target Support Files/Pods-CLNews-CLNewsUITests/Pods-CLNews-CLNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		499E6666A4140EDE0B66C4DC /* Pods-CLNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLNews.release.xcconfig"; path = "Target Support Files/Pods-CLNews/Pods-CLNews.release.xcconfig"; sourceTree = "<group>"; };
+		4F1CDDCC92B4783BCB57DDE2 /* Pods_CLNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76414F4B243E0DE70015AEA9 /* CLNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76414F4E243E0DE70015AEA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76414F4F243E0DE70015AEA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +62,11 @@
 		76414F71243E0DEB0015AEA9 /* CLNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76414F75243E0DEB0015AEA9 /* CLNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLNewsUITests.m; sourceTree = "<group>"; };
 		76414F77243E0DEB0015AEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76414F89243EF0ED0015AEA9 /* CLNews.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLNews.pch; sourceTree = "<group>"; };
+		89286297CB11D794AF704265 /* Pods_CLNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B84AE339D7C6C11C0B44A32 /* Pods-CLNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLNewsTests.release.xcconfig"; path = "Target Support Files/Pods-CLNewsTests/Pods-CLNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8434FF5415575F52876AC95 /* Pods-CLNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLNews.debug.xcconfig"; path = "Target Support Files/Pods-CLNews/Pods-CLNews.debug.xcconfig"; sourceTree = "<group>"; };
+		CBE64FE84934542A5FE11D6A /* Pods_CLNews_CLNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLNews_CLNewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA587C0F93FCACB405872E8 /* Pods_CLNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5A21CE346FEB577F11C45F /* Pods_CLNewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59AF6FEED91F6B879B0A69E /* Pods_CLNews_CLNewsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048BA1899BA40CF9203A48CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1CDDCC92B4783BCB57DDE2 /* Pods_CLNews.framework */,
+				CBE64FE84934542A5FE11D6A /* Pods_CLNews_CLNewsUITests.framework */,
+				89286297CB11D794AF704265 /* Pods_CLNewsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		76414F42243E0DE70015AEA9 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +114,8 @@
 				76414F69243E0DEB0015AEA9 /* CLNewsTests */,
 				76414F74243E0DEB0015AEA9 /* CLNewsUITests */,
 				76414F4C243E0DE70015AEA9 /* Products */,
+				F8B4B7EF35BEBB522CCEE4F0 /* Pods */,
+				048BA1899BA40CF9203A48CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +132,12 @@
 		76414F4D243E0DE70015AEA9 /* CLNews */ = {
 			isa = PBXGroup;
 			children = (
-				76414F4E243E0DE70015AEA9 /* AppDelegate.h */,
-				76414F4F243E0DE70015AEA9 /* AppDelegate.m */,
-				76414F51243E0DE70015AEA9 /* SceneDelegate.h */,
-				76414F52243E0DE70015AEA9 /* SceneDelegate.m */,
-				76414F54243E0DE70015AEA9 /* ViewController.h */,
-				76414F55243E0DE70015AEA9 /* ViewController.m */,
-				76414F57243E0DE70015AEA9 /* Main.storyboard */,
-				76414F5A243E0DEB0015AEA9 /* Assets.xcassets */,
-				76414F5C243E0DEB0015AEA9 /* LaunchScreen.storyboard */,
-				76414F5F243E0DEB0015AEA9 /* Info.plist */,
-				76414F60243E0DEB0015AEA9 /* main.m */,
+				76414F84243EF07A0015AEA9 /* AppDelegate */,
+				76414F83243EF07A0015AEA9 /* Controllers */,
+				76414F86243EF07A0015AEA9 /* Macro */,
+				76414F88243EF07A0015AEA9 /* Models */,
+				76414F87243EF07A0015AEA9 /* Recouces */,
+				76414F85243EF07A0015AEA9 /* Supporting Files */,
 			);
 			path = CLNews;
 			sourceTree = "<group>";
@@ -137,6 +160,73 @@
 			path = CLNewsUITests;
 			sourceTree = "<group>";
 		};
+		76414F83243EF07A0015AEA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		76414F84243EF07A0015AEA9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				76414F4E243E0DE70015AEA9 /* AppDelegate.h */,
+				76414F4F243E0DE70015AEA9 /* AppDelegate.m */,
+				76414F51243E0DE70015AEA9 /* SceneDelegate.h */,
+				76414F52243E0DE70015AEA9 /* SceneDelegate.m */,
+				76414F54243E0DE70015AEA9 /* ViewController.h */,
+				76414F55243E0DE70015AEA9 /* ViewController.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		76414F85243EF07A0015AEA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76414F89243EF0ED0015AEA9 /* CLNews.pch */,
+				76414F57243E0DE70015AEA9 /* Main.storyboard */,
+				76414F5A243E0DEB0015AEA9 /* Assets.xcassets */,
+				76414F5C243E0DEB0015AEA9 /* LaunchScreen.storyboard */,
+				76414F5F243E0DEB0015AEA9 /* Info.plist */,
+				76414F60243E0DEB0015AEA9 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76414F86243EF07A0015AEA9 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		76414F87243EF07A0015AEA9 /* Recouces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recouces;
+			sourceTree = "<group>";
+		};
+		76414F88243EF07A0015AEA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F8B4B7EF35BEBB522CCEE4F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8434FF5415575F52876AC95 /* Pods-CLNews.debug.xcconfig */,
+				499E6666A4140EDE0B66C4DC /* Pods-CLNews.release.xcconfig */,
+				408BFB72D0788674A7FB863D /* Pods-CLNews-CLNewsUITests.debug.xcconfig */,
+				16AC564F3665A9C2AA4A44F5 /* Pods-CLNews-CLNewsUITests.release.xcconfig */,
+				3ACDB53F30D641CD9E9046F8 /* Pods-CLNewsTests.debug.xcconfig */,
+				8B84AE339D7C6C11C0B44A32 /* Pods-CLNewsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76414F7A243E0DEB0015AEA9 /* Build configuration list for PBXNativeTarget "CLNews" */;
 			buildPhases = (
+				BEE33B80C7369FEFE817C147 /* [CP] Check Pods Manifest.lock */,
 				76414F47243E0DE70015AEA9 /* Sources */,
 				76414F48243E0DE70015AEA9 /* Frameworks */,
 				76414F49243E0DE70015AEA9 /* Resources */,
+				F9E5175EF696A00B0A44CAD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76414F7D243E0DEB0015AEA9 /* Build configuration list for PBXNativeTarget "CLNewsTests" */;
 			buildPhases = (
+				4F83CC155CD57FD88C2D43F5 /* [CP] Check Pods Manifest.lock */,
 				76414F62243E0DEB0015AEA9 /* Sources */,
 				76414F63243E0DEB0015AEA9 /* Frameworks */,
 				76414F64243E0DEB0015AEA9 /* Resources */,
@@ -179,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 76414F80243E0DEB0015AEA9 /* Build configuration list for PBXNativeTarget "CLNewsUITests" */;
 			buildPhases = (
+				4793F9621D227404CF5621CD /* [CP] Check Pods Manifest.lock */,
 				76414F6D243E0DEB0015AEA9 /* Sources */,
 				76414F6E243E0DEB0015AEA9 /* Frameworks */,
 				76414F6F243E0DEB0015AEA9 /* Resources */,
+				E4C33B46BA20243726F8ACB9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +356,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4793F9621D227404CF5621CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLNews-CLNewsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F83CC155CD57FD88C2D43F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLNewsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE33B80C7369FEFE817C147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4C33B46BA20243726F8ACB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLNews-CLNewsUITests/Pods-CLNews-CLNewsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLNews-CLNewsUITests/Pods-CLNews-CLNewsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLNews-CLNewsUITests/Pods-CLNews-CLNewsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9E5175EF696A00B0A44CAD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLNews/Pods-CLNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLNews/Pods-CLNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLNews/Pods-CLNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		76414F47243E0DE70015AEA9 /* Sources */ = {
@@ -437,11 +635,14 @@
 		};
 		76414F7B243E0DEB0015AEA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8434FF5415575F52876AC95 /* Pods-CLNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ22LFM7LZ;
-				INFOPLIST_FILE = CLNews/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CLNews/Supporting Files/CLNews.pch";
+				INFOPLIST_FILE = "CLNews/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +655,14 @@
 		};
 		76414F7C243E0DEB0015AEA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499E6666A4140EDE0B66C4DC /* Pods-CLNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ22LFM7LZ;
-				INFOPLIST_FILE = CLNews/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CLNews/Supporting Files/CLNews.pch";
+				INFOPLIST_FILE = "CLNews/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +675,7 @@
 		};
 		76414F7E243E0DEB0015AEA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ACDB53F30D641CD9E9046F8 /* Pods-CLNewsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +696,7 @@
 		};
 		76414F7F243E0DEB0015AEA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B84AE339D7C6C11C0B44A32 /* Pods-CLNewsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +717,7 @@
 		};
 		76414F81243E0DEB0015AEA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408BFB72D0788674A7FB863D /* Pods-CLNews-CLNewsUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ22LFM7LZ;
@@ -529,6 +736,7 @@
 		};
 		76414F82243E0DEB0015AEA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16AC564F3665A9C2AA4A44F5 /* Pods-CLNews-CLNewsUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YZ22LFM7LZ;
